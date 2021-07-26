@@ -1,0 +1,61 @@
+
+$secondary-color: #24EB38;
+$third-color: #1a9cff;
+
+.to-translate-textarea, .translated-textarea {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.fade-in {
+  opacity: 1 !important;
+  transition: 1.2s;
+}
+
+.faded {
+  opacity: 0 !important;
+}
+
+body {
+  background: #F0F0F0 !important;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 6em !important;
+  color: $secondary-color;
+}
+
+label {
+  font-size: 2em !important;
+  font-weight: 600;
+}
+
+button {
+  color: white;
+  background: $secondary-color;
+  border-radius: 8px !important;
+  padding: 10px 25px 10px 25px;
+  border: 0px;
+  position: relative;
+  top: 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+textarea {
+  &:focus {
+    outline-color: $third-color;
+  }
+}
+
+select {
+  height: 35px;
+  left: 20px;
+  margin-bottom: 15px;
+  top: -5px;
+  position: relative;
+}
